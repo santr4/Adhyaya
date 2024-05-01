@@ -35,3 +35,16 @@ fn get_first_word(sentence: String) -> String {
     }
     return ans;
 }
+
+// ** functions
+
+fn main() {
+    let a: i8 = 3;
+    let b: i8 = 4;
+    let c: i8 = sum(a, b);
+    print!("sum of {} and {} is: {}", a, b, c);
+}
+
+fn sum(a: i8, b: i8) -> i8 {
+    return a + b;
+}
